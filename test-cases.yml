@@ -30,7 +30,64 @@
   expected-result: |
     Должен выбраться товар из выбранной категории
     
-    - summary:
+    - summary: 
+        Проверка возможности фильтрации товара
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
+
+    - summary: 
     requirement:
     prerequisites
     test-data:
