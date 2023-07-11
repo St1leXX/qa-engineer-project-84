@@ -1,62 +1,45 @@
 ---
-- summary: |
-    Краткое описание тест кейса. Пример: Проверка входа пользователя с существующими логином и паролем
-  requirement: |
-    Тестируемое требование. Например: При верном вводе логине и пароля пользователь должен войти в систему
-  prerequisites: |
-    Это условия, которые необходимы для проведения тест кейса. Они должны быть выполнены еще до запуска тест кейса.
-    Например: открыта страница логина
-  test-data: |
-    Тестовые данные
-    Логин = ilona Пароль = password
-  steps:
-    - Вводим логин
-    - Вводим пароль
-    - Нажимаем кнопку "Войти"
-  expected-result: |
-    Пользователь должен попасть на главную страницу
-
-- summary: |
+- summary:
     Проверка возможности поиска товара по ключевому слову или категории
-  requirement: |
+  requirement:
     При выборе категории товара - товар отсортируется
   prerequisites:
     Открыта начальная страница магазина 
-  test-data: |
-    Нет данных
+  test-data:
+    Нет данных    
   steps:
     - Нажимаем на категории товара
     - Выбираем категорию
-  expected-result: |
+  expected-result:
     Должен выбраться товар из выбранной категории
     
-    - summary: 
+- summary:
         Проверка возможности фильтрации товара
-    requirement:
+  requirement:
         При выборе товара - товар отфильтруется
-    prerequisites
+  prerequisites:
         Открыта начальная страница магазина 
-    test-data:
+  test-data:
         Нет данных
-    steps:
-        Нажимаем на интересующий нас "Бренд"
-    expected-result:
+  steps:
+        Ставим галочки рядом с интересующем нас товаром
+  expected-result:
         Товар должен отфильтроваться
 
-    - summary: 
+- summary: 
         Сайт должен быть доступен на различных устройствах
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
+  requirement:
+  prerequisites:
+  test-data:
+  steps:
+  expected-result:
 
-    - summary: 
+- summary: 
         Сайт должен быть протестирован на совместимость с последними версиями браузеров.
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
+  requirement:
+  prerequisites:
+  test-data:
+  steps:
+  expected-result:
 
 
