@@ -52,51 +52,11 @@
     expected-result:
 
     - summary: 
-        Проверка возможности добавления товара в корзину и просматривание содержимого корзины
+        Сайт должен быть протестирован на совместимость с последними версиями браузеров.
     requirement:
     prerequisites
     test-data:
     steps:
     expected-result:
 
-    - summary: 
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
 
-    - summary: 
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
-
-    - summary: 
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
-
-    - summary: 
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
-
-    - summary: 
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
-
-    - summary: 
-    requirement:
-    prerequisites
-    test-data:
-    steps:
-    expected-result:
