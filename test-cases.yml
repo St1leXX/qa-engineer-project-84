@@ -29,3 +29,10 @@
     - Выбираем категорию
   expected-result: |
     Должен выбраться товар из выбранной категории
+    
+    - summary:
+    requirement:
+    prerequisites
+    test-data:
+    steps:
+    expected-result:
