@@ -39,6 +39,7 @@
     expected-result:
 
     - summary: 
+        Проверка возможности просматривания товара и просматривания подробной информации о товаре
     requirement:
     prerequisites
     test-data:
@@ -46,6 +47,7 @@
     expected-result:
 
     - summary: 
+        Проверка возможности добавления товара в корзину и просматривание содержимого корзины
     requirement:
     prerequisites
     test-data:
