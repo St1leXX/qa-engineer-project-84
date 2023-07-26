@@ -39,7 +39,11 @@
   requirement:
   prerequisites:
   test-data:
+      ChromeLV, FirefoxLV
   steps:
+      Открываем выбранный браузер
+      Заходим на сайт магазина
   expected-result:
+      Сайт должен корректно открываться и отображаться
 
 
