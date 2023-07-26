@@ -29,7 +29,8 @@
 - summary: 
         Сайт должен быть доступен на различных устройствах
   requirement:
-  prerequisites: SafariLV
+  prerequisites:
+      SafariLV
   test-data:
       iPhone 12 Pro
   steps:
@@ -43,7 +44,8 @@
 - summary: 
         Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   requirement:
-  prerequisites: Windows 10
+  prerequisites:
+      Windows 10
   test-data:
       ChromeLV, FirefoxLV
   steps:
@@ -55,7 +57,8 @@
 - summary: 
         Сайт должен быть доступен на различных устройствах
   requirement:
-  prerequisites: ChromeLV
+  prerequisites:
+      ChromeLV
   test-data:
       Galaxy S9+
   steps:
