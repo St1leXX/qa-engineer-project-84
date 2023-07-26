@@ -29,15 +29,21 @@
 - summary: 
         Сайт должен быть доступен на различных устройствах
   requirement:
-  prerequisites:
+  prerequisites: SafariLV
   test-data:
+      iPhone 12 Pro
   steps:
+      Заходим на сайт магазина 
+      Открываем DevTools
+      Нажимаем на кнопку "Toggle device toolbar"
+      Выбраем iPhone 12 Pro
   expected-result:
+      Сайт должен корректно открываться и отображаться
 
 - summary: 
         Сайт должен быть протестирован на совместимость с последними версиями браузеров.
   requirement:
-  prerequisites:
+  prerequisites: Windows 10
   test-data:
       ChromeLV, FirefoxLV
   steps:
@@ -45,5 +51,19 @@
       Заходим на сайт магазина
   expected-result:
       Сайт должен корректно открываться и отображаться
+
+- summary: 
+        Сайт должен быть доступен на различных устройствах
+  requirement:
+  prerequisites: ChromeLV
+  test-data:
+      Galaxy S9+
+  steps:
+      Заходим на сайт магазина 
+      Открываем DevTools
+      Нажимаем на кнопку "Toggle device toolbar"
+      Выбраем Galaxy S9+
+  expected-result:
+      Сайт должен корректно открываться и отображаться    
 
 
