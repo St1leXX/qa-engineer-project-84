@@ -2,11 +2,13 @@
 - summary: |
     Плывет верстка 
   environment: |
-    Safari iOS 16.6
+    Safari iOS 16.6 615.2.9
     iPhone 12 Pro
   steps-to-reproduce: |
     Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    
+    Открыть DevTools
+    Нажать на кнопку "Toggle device toolbar"
+    Выбрать iPhone 12 Pro
   expected-result: |
     Сайт должен корректно отображаться
   actual-result: |
