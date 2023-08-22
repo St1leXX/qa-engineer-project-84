@@ -5,16 +5,52 @@
     Safari 615.2.9
     iPhone 12 Pro ОС iOS 16.5
   steps-to-reproduce: |
-    Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    Открыть DevTools
-    Нажать на кнопку "Toggle device toolbar"
-    Выбрать iPhone 12 Pro
+    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
+    2. Открыть DevTools
+    3. Нажать на кнопку "Toggle device toolbar"
+    4. Выбрать iPhone 12 Pro
   expected-result: |
     Сайт будет комфортным для пользования 
   actual-result: |
     Кнопка Add to cart вылезает за рамки в карточках товаров
     Кнопка Previous на главной странице магазина наплывает на поле Search
     Невидно вводимых цифр в поле "от - до" для фильтрации товара по цене
+    
+- summary: Нерабочая кнопка Hexlet Store
+  environment: 
+  Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
+  OC Windows 10
+  steps-to-reproduce:
+  1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
+  2. В левом верхнем углу нажать на кнопку Hexlet Store
+  expected-result:
+  Кнопка Hexlet Store вернет нас на начальную страницу магазина
+  actual-result:
+  Ничего не происходит
+
+  - summary:
+  environment:
+  steps-to-reproduce:
+  expected-result:
+  actual-result:
+
+  - summary:
+  environment:
+  steps-to-reproduce:
+  expected-result:
+  actual-result:
+
+  - summary:
+  environment:
+  steps-to-reproduce:
+  expected-result:
+  actual-result:
+
+  - summary:
+  environment:
+  steps-to-reproduce:
+  expected-result:
+  actual-result:
     
 
 
