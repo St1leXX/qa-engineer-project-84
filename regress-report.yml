@@ -8,7 +8,10 @@ bugreports:
  - summary:
      Фильтрация товара по наличию
   environment:
+     Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
+     OC Windows 10
   steps-to-reproduce:
+     1.
   expected-result:
   actual-result:
      
