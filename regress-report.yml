@@ -1,2 +1,5 @@
 ---
-bugreports: []
+test-cases:
+- summary: 
+        Проверка фильтрации товара по наличию 
+  status: fail
