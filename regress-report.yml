@@ -23,15 +23,15 @@ test-cases:
 bugreports:
  - summary:
      Фильтрация товара по наличию
-  environment:
+   environment:
      Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
      OC Windows 10
-  steps-to-reproduce:
+   steps-to-reproduce:
      1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
      2. Слева в столбике выбрать графу наличие (in stock)
-  expected-result:
+   expected-result:
      Товар отфильтруется по наличию
-  actual-result:
+   actual-result:
      Товар не фильтруется
      
    
