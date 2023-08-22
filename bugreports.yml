@@ -28,11 +28,19 @@
   actual-result:
   Ничего не происходит
 
-  - summary:
+  - summary: Оформление заказа
   environment:
+  Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
+  OC Windows 10
   steps-to-reproduce:
+  1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
+  2. Добавить любой товар в корзину
+  3. В правом верхнем углу нажать на кнопку "Корзина" и там нажать на "Оформить заказ"
   expected-result:
+  Заказ успешно оформится и передастся на сервер
   actual-result:
+  Выводится окно об успешном оформлении заказа
+  В консоли браузера Devtools выводится ошибка 500
 
   - summary:
   environment:
