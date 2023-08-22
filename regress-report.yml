@@ -6,7 +6,12 @@ test-cases:
 
 bugreports:
  - summary:
-     Фи
+     Фильтрация товара по наличию
+  environment:
+  steps-to-reproduce:
+  expected-result:
+  actual-result:
+     
    
 
    
