@@ -68,19 +68,5 @@
   expected-result:
       Сайт корректно отображается на выбранных браузерах
 
-- summary: 
-        Сайт должен быть доступен на различных устройствах
-  requirement:
-  prerequisites:
-      ChromeLV
-  test-data:
-      Galaxy S9+
-  steps:
-      Заходим на сайт магазина 
-      Открываем DevTools
-      Нажимаем на кнопку "Toggle device toolbar"
-      Выбраем Galaxy S9+
-  expected-result:
-      Сайт должен корректно открываться и отображаться    
 
 
