@@ -1,88 +1,80 @@
 ---
 - summary: |
-    Плывет верстка 
+    Нет мобильной версии сайта
   environment: |
     Safari 615.2.9
     iPhone 12 Pro ОС iOS 16.5
   steps-to-reproduce: |
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Открыть DevTools
-    3. Нажать на кнопку "Toggle device toolbar"
-    4. Выбрать iPhone 12 Pro
+    1. Открыть DevTools
+    2. Нажать на кнопку "Toggle device toolbar"
+    3. Выбрать iPhone 12 Pro
   expected-result: |
     Сайт будет комфортным для пользования 
   actual-result: |
-    Кнопка Add to cart вылезает за рамки в карточках товаров
-    Кнопка Previous на главной странице магазина наплывает на поле Search
-    Невидно вводимых цифр в поле "от - до" для фильтрации товара по цене
+    Нет мобильной версии сайта
     
-- summary: 
-    Нерабочая кнопка Hexlet Store
-  environment: 
+- summary: |
+    Некликабельная кнопка Hexlet Store на главной странице
+  environment: |
     Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
     OC Windows 10
-  steps-to-reproduce:
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. В левом верхнем углу нажать на кнопку Hexlet Store
-  expected-result:
+  steps-to-reproduce: |
+    1. В левом верхнем углу нажать на кнопку Hexlet Store
+  expected-result: |
     Кнопка Hexlet Store вернет нас на начальную страницу магазина
-  actual-result:
+  actual-result: |
     Ничего не происходит
 
-- summary: 
+- summary: |
       Оформление заказа
-  environment:
+  environment: |
     Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
     OC Windows 10
-  steps-to-reproduce:
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Добавить любой товар в корзину
-    3. В правом верхнем углу нажать на кнопку "Корзина" и там нажать на "Оформить заказ"
-  expected-result:
+  steps-to-reproduce: |
+    1. Добавить любой товар в корзину
+    2. В правом верхнем углу нажать на кнопку "Корзина" и там нажать на "Оформить заказ"
+  expected-result: |
     Заказ успешно оформится и передастся на сервер
-  actual-result:
+  actual-result: |
     Выводится окно об успешном оформлении заказа
     В консоли браузера Devtools выводится ошибка 500
 
-- summary: 
-      Выбор языка
-  environment:
+- summary: |
+      Не локализуется описание товара при выборе русского языка
+  environment: |
     Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
     OC Windows 10
-  steps-to-reproduce:
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. В правом верхнем углу выбрать русский язык
-  expected-result:
+  steps-to-reproduce: |
+    1. В правом верхнем углу выбрать русский язык
+  expected-result: |
     Интернет-магазин переведется на русский язык
-  actual-result:
+  actual-result: |
     Описание товара остается на английском языке
 
-- summary: 
-      Удаление выбранной категории
-  environment:
+- summary: |
+      Нельзя очистить фильтр по категории
+  environment: |
     Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
     OC Windows 10
-  steps-to-reproduce:
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. В левом столбце выбрать любую категорию
-  expected-result:
+  steps-to-reproduce: |
+    1. В левом столбце выбрать любую категорию
+  expected-result: |
     Показвается товар выбранной категории
-  actual-result:
+  actual-result: |
     Показвается товар выбранной категории
     Нет возможности отменить выбранную категорию товара
 
-- summary: 
-      Изображение товара
-  environment:
+- summary: |
+      Не кликабельные изображения в карточке товара
+  environment: |
     Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
     OC Windows 10
-  steps-to-reproduce:
-    1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-    2. Нажать на  любой товар
-    3. Выбрать другое изображение товара
-  expected-result:
+  steps-to-reproduce: |
+    1. Нажать на  любой товар
+    2. Выбрать другое изображение товара
+  expected-result: |
     Изображение поменяется
-  actual-result:
+  actual-result: |
     Изображение не меняется
     
 
