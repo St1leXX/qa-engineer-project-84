@@ -2,31 +2,31 @@
 test-cases:
   - summary: |
     Проверка фильтрации товара по наличию 
-  status: fail
+   status: fail
   
   - summary: |
     Проверка поиска товара по ключевому слову
-  status: pass
+   status: pass
 
   - summary: |
     Проверка поиска товара по категории
-  status: pass
+   status: pass
 
   - summary: |
     Проверка мобильной версии сайта
-  status: pass
+   status: pass
 
   - summary: |
     Проверка совместимости с последними версиями браузеров
-  status: pass
+   status: pass
 
   - summary: |
     Проверка просматривания подробной информации о товаре
-  status: pass
+   status: pass
 
   - summary: |
     Проверка добавления товара в корзину
-  status: pass
+   status: pass
 
 bugreports:
   - summary: |
