@@ -1,37 +1,44 @@
 ---
 test-cases:
-- summary: 
+  - summary: |
     Проверка фильтрации товара по наличию 
   status: fail
   
-- summary:
-    Проверка возможности поиска товара по ключевому слову
+  - summary: |
+    Проверка поиска товара по ключевому слову
   status: pass
 
-- summary:
-    Проверка возможности поиска товара по категории
+  - summary: |
+    Проверка поиска товара по категории
   status: pass
 
-- summary: 
-    Проверка доступности сайта на мобильных девайсах
+  - summary: |
+    Проверка мобильной версии сайта
   status: pass
 
-- summary: 
+  - summary: |
     Проверка совместимости с последними версиями браузеров
   status: pass
 
+  - summary: |
+    Проверка просматривания подробной информации о товаре
+  status: pass
+
+  - summary: |
+    Проверка добавления товара в корзину
+  status: pass
+
 bugreports:
- - summary:
+  - summary: |
      Фильтрация товара по наличию
-   environment:
+   environment: |
      Google Chrome 116.0.5845.97 (Официальная сборка), (64 бит)
      OC Windows 10
-   steps-to-reproduce:
-     1. Зайти на главную страницу сайта https://hexlet-products-store.vercel.app/
-     2. Слева в столбике выбрать графу наличие (in stock)
-   expected-result:
+   steps-to-reproduce: |
+     1. Слева в столбике выбрать графу наличие "In Stock"
+   expected-result: |
      Товар отфильтруется по наличию
-   actual-result:
+   actual-result: |
      Товар не фильтруется
      
    
